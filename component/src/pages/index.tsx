@@ -1,7 +1,7 @@
 import { css } from "@emotion/react";
 
 export default function Home() {
-  return <>index page</>;
+  return <>git test</>;
 }
 
 const testCSS = css``;
