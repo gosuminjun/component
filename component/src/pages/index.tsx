@@ -1,7 +1,15 @@
-import { css } from "@emotion/react";
+import Button from "@/components/Button/Button";
 
-export default function Home() {
-  return <>git test</>;
+function Home() {
+  const buttonClick = () => {
+    console.log("Button clicked!");
+  };
+
+  return (
+    <>
+      <Button text="hello" theme="warning" onClick={buttonClick} />
+    </>
+  );
 }
 
-const testCSS = css``;
+export default Home;
