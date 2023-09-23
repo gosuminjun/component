@@ -7,7 +7,12 @@ function Home() {
 
   return (
     <>
-      <Button text="hello" theme="warning" onClick={buttonClick} />
+      <Button
+        width="100px"
+        text="hello"
+        theme="warning"
+        onClick={buttonClick}
+      />
     </>
   );
 }

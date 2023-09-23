@@ -8,6 +8,7 @@ export type ThemeType = {
 };
 
 export type ButtonType = {
+  width: string;
   theme: keyof ThemeType;
   text: string;
   onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
@@ -15,4 +16,6 @@ export type ButtonType = {
 
 export type ButtonTypeProps = {
   theme: keyof typeof themes;
+
+  width?: string;
 };
